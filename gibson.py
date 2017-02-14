@@ -1,9 +1,10 @@
 from glob import glob
 from subprocess import call
 locations = open("./path.db")
+music=[]
 for line in locations:
 	line=line.rstrip()
-	music=glob(line+"/*.mp3")
+	music=music+glob(line+"/*.mp3")
 ticker=0
 index=open("./html/index.html","w")
 index.write("<head><link rel='stylesheet' href='./main.css'><title>Gibson Home</title></head><body><h2>Gibson Home</h2>")
