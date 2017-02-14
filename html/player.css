@@ -1,0 +1,21 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+audio {
+  width: 600px;
+}
+a:link {
+  color: blue;
+}
+a:visited {
+  color: blue;
+}
+div.grey {
+  color: #303030;
+}
+div {
+  display: inline;
+}

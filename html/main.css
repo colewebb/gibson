@@ -1,0 +1,12 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+a:link {
+  color: blue;
+}
+a:visited {
+  color: blue;
+}
